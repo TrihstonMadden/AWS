@@ -6,8 +6,7 @@ def main():
     r=randint(0,len(words)-1)
     a = False
     if (r==5):
-        r=0
-        a = True
+        a = False
 
     if(a):
         print("flag{" + words[r] + "}")
