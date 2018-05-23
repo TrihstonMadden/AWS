@@ -49,14 +49,11 @@ a:hover{
 			for($i = 0;$i<100;$i++){
 				echo "<a href = \"tas.tritech.io/get_trolled.gif\"> something </a>";
 				if($i==13){
-					echo "<a href = \"http://tas.tritech.io/stuff_to_use/\"> stuff </a>"
-					echo "<a href = \"http://tas.tritech.io/cat\"> cat</a>"
+					echo "<a href = \"http://tas.tritech.io/stuff_to_use/\"> stuff </a>";
+					echo "<a href = \"http://tas.tritech.io/cat\"> cat</a>";
 				}
 			}
 		?>
-		<a href = ""> something </a>
-		<a href = "http://tas.tritech.io/stuff_to_use/"> stuff </a>
-		<a href = "http://tas.tritech.io/cat"> cat</a>
 
 		</h3>
 			<h3>
