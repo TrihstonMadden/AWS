@@ -45,13 +45,20 @@ a:hover{
 </style>
 		<h3>
 		<?php
+
+
+		  $a = rand(15, 10000);
+			$b = rand(15, 10000);
+			if($a==$b){
+				$a= $a + 1;
+			}
 			$i = 0;
-			for($i = 0;$i<10002;$i++){
+			for($i = 0;$i<10005;$i++){
 				echo "<a href = \"http://tas.tritech.io/get_trolled.gif\"> something </a>";
-				if($i==257){
+				if($i==$a){
 					echo "<a href = \"http://tas.tritech.io/stuff_to_use/\"> something </a>";
 				}
-				if($i==777){
+				if($i==$b){
 					echo "<a href = \"http://tas.tritech.io/cat\"> something </a>";
 				}
 			}
