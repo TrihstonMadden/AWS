@@ -47,7 +47,7 @@ a:hover{
 		<?php
 			$i = 0;
 			for($i = 0;$i<1002;$i++){
-				echo "<a href = \"tas.tritech.io/get_trolled.gif\"> something </a>";
+				echo "<a href = \"http://tas.tritech.io/get_trolled.gif\"> something </a>";
 				if($i==257){
 					echo "<a href = \"http://tas.tritech.io/stuff_to_use/\"> something </a>";
 				}
