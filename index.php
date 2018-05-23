@@ -48,19 +48,19 @@ a:hover{
 
 
 		  $a = rand(15, 10000);
-			$b = rand(15, 10000);
+			/*$b = rand(15, 10000);
 			if($a==$b){
 				$a= $a + 1;
-			}
+			}*/
 			$i = 0;
-			for($i = 0;$i<10005;$i++){
+			for($i = 0;$i<10015;$i++){
 				echo "<a href = \"http://tas.tritech.io/get_trolled.gif\"> something </a>";
 				if($i==$a){
 					echo "<a href = \"http://tas.tritech.io/patience\"> something </a>";
 				}
-				if($i==$b){
+				/*if($i==$b){
 					echo "<a href = \"http://tas.tritech.io/catshavepatience\"> something </a>";
-				}
+				}*/
 			}
 		?>
 
