@@ -59,7 +59,7 @@ a:hover{
 					echo "<a href = \"http://tas.tritech.io/patience\"> something </a>";
 				}
 				if($i==$b){
-					echo "<a href = \"http://tas.tritech.io/patients\"> something </a>";
+					echo "<a href = \"http://tas.tritech.io/catshavepatience\"> something </a>";
 				}
 			}
 		?>
